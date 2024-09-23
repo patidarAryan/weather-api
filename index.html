@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter City Name" id="inp">
+                <button class="fa-solid fa-magnifying-glass" id="search-btn"></button>
+            </div>
+        </div>
+        <div class="not-found">
+            <h2>Sorry 404 Location Not Found</h2>
+            <img src="./404.png" alt="">
+        </div>
+        <div class="weather-body">
+            <img src="./clear.png" id="weather-img" alt="">
+            <div class="weather-box">
+                <p class="temprature">0</p>
+                <p class="description">light rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="humi">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span class="humidity">62%</span>
+                    <p>Humidity</p>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span class="wind-speed">112KM/H</span>
+                    <p>Wind-Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
